@@ -14,3 +14,5 @@ app.use(require('./routes/employees'));
 app.listen(app.get('port'), () => {
   console.log(`Server on port ${app.get('port')}`);
 });
+
+//ejemplo de rest api
