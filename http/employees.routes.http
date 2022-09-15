@@ -1,0 +1,7 @@
+POST http://localhost:3000/api/employees
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "salary": 1000
+}

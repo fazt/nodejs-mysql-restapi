@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS company;
+CREATE DATABASE IF NOT EXISTS companydb;
 
-USE company;
+USE companydb;
 
 CREATE TABLE employee (
   id INT(11) NOT NULL AUTO_INCREMENT,
