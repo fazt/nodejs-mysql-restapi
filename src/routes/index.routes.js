@@ -1,7 +1,10 @@
 import { Router } from "express";
+import { index, ping } from "../controllers/index.rotes.js";
 
 const router = Router();
 
-router.get("/", (req, res) => res.json({ message: "welcome to my api" }));
+router.get("/", index);
+
+router.get("/ping", ping);
 
 export default router;
